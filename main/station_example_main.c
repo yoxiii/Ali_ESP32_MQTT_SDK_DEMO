@@ -136,9 +136,9 @@ void wifi_init_sta(void)
  */
 
 /* TODO: 替换为自己设备的三元组 */
-char *product_key       = "k0r7zrmL7su";
-char *device_name       = "a002";
-char *device_secret     = "1ef68f37e717dcb8b449043cabc31af3";
+char *product_key       = "  ";
+char *device_name       = "  ";
+char *device_secret     = "  ";
 
 /* 位于portfiles/aiot_port文件夹下的系统适配函数集合 */
 extern aiot_sysdep_portfile_t g_aiot_sysdep_portfile;
