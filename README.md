@@ -1,9 +1,9 @@
 # Ali_ESP32_MQTT_SDK_DEMO
-阿里云物联网平台esp32官方移植sdk例程
+阿里云物联网平台esp32移植sdk例程
 <br><br>
 ## 移植
 
-1. **先根据阿里云移植文档完成开发环境移植**
+1. **根据阿里云移植文档完成开发环境移植**
   [乐鑫ESP32开发板移植说明](https://help.aliyun.com/zh/iot/developer-reference/port-the-sdk-to-an-esp32-development-board?spm=a2c4g.11174283.0.i2)<br>
 2. 进入menuconfig,修改`WiFi SSID`， `WiFi Password`和`Maximum retry`<br>
 3. 修改设备三元组`product_key`,`device_name`和`device_secret`<br>
