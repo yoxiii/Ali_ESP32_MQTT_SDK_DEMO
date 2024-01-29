@@ -6,7 +6,7 @@
 1. **根据阿里云移植文档完成开发环境移植**
   [乐鑫ESP32开发板移植说明](https://help.aliyun.com/zh/iot/developer-reference/port-the-sdk-to-an-esp32-development-board?spm=a2c4g.11174283.0.i2)<br>
 2. 进入menuconfig,修改`WiFi SSID`， `WiFi Password`和`Maximum retry`<br>
-3. 修改设备三元组`product_key`,`device_name`和`device_secret`<br>
+3. 在`station_example_main.c`中修改设备三元组`product_key`,`device_name`和`device_secret`<br>
 <br>
 
 ## 串口输出
